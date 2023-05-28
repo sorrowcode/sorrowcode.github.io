@@ -1,4 +1,0 @@
-baseURL = 'https://sorrowcode.dev/'
-languageCode = 'en-us'
-title = 'Portfolio'
-theme = 'hugo-coder'
