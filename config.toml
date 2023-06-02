@@ -1,4 +1,47 @@
 baseURL = 'https://sorrowcode.dev/'
 languageCode = 'en-us'
-title = 'Home'
-theme = 'hugo-theme-color-your-world'
+title = 'Introducing....'
+
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
+
+[params]
+
+  title = "i am sorrowcode"
+  author = "sorrowcode"
+  description = "Call me Mathias"
+  profilePicture = "images/mpb.jpeg"
+  fullPostContent = true
+
+  [[params.socialIcons]]
+
+    icon = "fab fa-linkedin"
+    title = "Linkedin"
+    url = "https://de.linkedin.com/"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
+
+  [[menu.main]]
+    name = "Post"
+    weight = 200
+    identifier = "post"
+    url = "/post/"
+
+  [[menu.main]]
+    name = "About"
+    weight = 300
+    identifier = "about"
+    url = "/about/"
+
+[mermaid]
+  enable = true
