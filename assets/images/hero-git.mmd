@@ -1,0 +1,25 @@
+gitGraph
+    commit id: "init" tag: "v0.0.1"
+    branch develop
+    checkout develop
+    commit id: "setup"
+    branch feature
+    checkout feature
+    commit id: "some feature"
+    checkout develop
+    merge feature
+    branch bugfix
+    checkout bugfix
+    commit id: "fixing bugs"
+    checkout develop
+    merge bugfix
+    checkout main
+    merge develop id: "v1.0.0" tag: "v1.0.0"
+    checkout develop
+    branch refactoring
+    checkout refactoring
+    commit id: "some refactoring"
+    checkout develop
+    merge refactoring
+    checkout main
+    merge develop id: "v1.0.1" tag: "v1.0.1"
