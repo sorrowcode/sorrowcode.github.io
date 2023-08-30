@@ -1,7 +1,7 @@
 {
   "name": "sorrowcode.github.io",
   "version": "0.0.1",
-  "homepage": "https://sorrowcode.github.io",
+  "homepage": "https://sorrowcode.dev",
   "private": false,
   "scripts": {
     "dev": "vite",
