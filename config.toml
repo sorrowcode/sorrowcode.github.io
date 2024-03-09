@@ -1,3 +1,4 @@
-baseURL = "https://sorrowcode.dev"
+baseURL = "http://sorrowcode.dev"
 languageCode = "en-us"
 title = "WIP"
+theme = "hermit-v2"
