@@ -1,7 +1,7 @@
 baseURL = "sorrowcode.dev"
 languageCode = "en-us"
 title = "WIP"
-#theme = "hugo-theme-nix"
+theme = "hube-theme-nix"
 
 [params]
   Name = "Mathias Darscht"
