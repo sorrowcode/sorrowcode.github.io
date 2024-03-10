@@ -8,16 +8,21 @@ title = "WIP"
     path = 'github.com/LordMathis/hugo-theme-nightfall'
 
 [params]
-user = "sorrowcode"
-hostname = "sorrowcode.github.io"
-footerHtml = 'sic mundus creatus est'
+    user = "sorrowcode"
+    hostname = "sorrowcode.github.io"
+    footerHtml = 'sic mundus creatus est'
 
-  [params.author]
-    name = "Mathias Darscht"
-    email = "hugo@example.com"
+    [params.author]
+        name = "Mathias Darscht"
+        email = "sorrow-code@outlook.com"
 
 [menu]
-  [[menu.header]]
-    name = "posts"
-    weight = 0
-    url = "/posts"
+    [[menu.header]]
+        name = "posts"
+        weight = 1
+        url = "/posts"
+
+    [[menu.header]]
+        name = "about"
+        weight = 0
+        url = "/about"
